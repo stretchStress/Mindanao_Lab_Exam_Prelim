@@ -10,14 +10,14 @@
   
   <style scoped>
   .header {
-    background: #d77473;
+    background: #b0514a;
     padding: 1.5rem;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 2px 2px 12px 12px;
   }
   .nav-links .link {
     color: white;
@@ -28,4 +28,5 @@
   .nav-links .link:hover {
     text-decoration: underline;
   }
+
   </style>
