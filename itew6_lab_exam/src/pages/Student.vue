@@ -40,7 +40,7 @@ onMounted(async () => {
     <div v-else-if="error">{{ error }}</div>
     <ul v-else class="user-list">
       <li v-for="user in users" :key="user.id">
-        <strong>{{ user.name }}</strong> — {{ user.email }}
+        <strong>{{ user.name }}</strong> - {{ user.email }}
       </li>
     </ul>
   </div>
