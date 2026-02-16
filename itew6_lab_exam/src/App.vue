@@ -13,5 +13,5 @@ import HeaderComponent from './components/HeaderComponent.vue';
 
 <style>
 body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fafafa; }
-.app-layout { max-width: 800px; margin: 0 auto; padding: 20px; }
+.app-layout { max-width: 80vw; margin: 0 auto;}
 </style>
