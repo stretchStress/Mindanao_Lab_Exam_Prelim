@@ -1,12 +1,17 @@
 <script setup>
 import HeaderComponent from './components/HeaderComponent.vue';
-
 </script>
 
 <template>
- <HeaderComponent />
- <route-view />
- 
+  <div class="app-layout">
+    <HeaderComponent />
+    <main>
+      <router-view />
+    </main>
+  </div>
 </template>
 
-<style scoped></style>
+<style>
+body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fafafa; }
+.app-layout { max-width: 800px; margin: 0 auto; padding: 20px; }
+</style>
