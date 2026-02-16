@@ -1,18 +1,31 @@
 <template>
     <header class="header">
-        <h1>Student Infomation App</h1>
-        <nav>
-            <route-link to="/">Home</route-link>
-            <route-link to="/student">Student</route-link>
-        </nav>
+      <h1>Student Information App</h1>
+      <nav class="nav-links">
+        <router-link to="/" class="link">Home</router-link>
+        <router-link to="/student" class="link">Student</router-link>
+      </nav>
     </header>
-</template>
-
-<style>
-.header {
-    background:rgb(215, 116, 115);
-    margin: 12px;
+  </template>
+  
+  <style scoped>
+  .header {
+    background: #d77473;
+    padding: 1.5rem;
     color: white;
-}
-           
- </style>
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .nav-links .link {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .nav-links .link:hover {
+    text-decoration: underline;
+  }
+  </style>
